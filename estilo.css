@@ -1,0 +1,336 @@
+.fuenteParrafo{
+    text-align: justify;
+}
+
+h4{
+    color: white;
+    font-family: arial;
+}
+
+/*contenedor rojo*/
+/*Ejemplo: Nest Hub Max*/
+@media only screen and (min-width: 1200px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(19, 160, 216);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(68, 66, 66);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+}
+
+/*contenedor original*/
+/*Ejemplo: Nest Hub*/
+@media only screen and (min-width: 900px) and (max-width: 1199px){        
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(19, 160, 216);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(68, 66, 66);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+}
+
+/*contenedor negro*/
+/*Por ejemplo: Ipad Air*/
+@media only screen and (min-width: 768px) and (max-width: 899px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(19, 160, 216);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(68, 66, 66);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        display: flex;
+        width: 100%;      
+    }
+
+    /* .Horizontal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10%;
+    } */
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 1%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 35%;
+    }
+}
+
+/*contenedor azul*/
+/*Ejemplo: Surface Duo*/
+@media only screen and (min-width: 540px) and (max-width: 719px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(19, 160, 216);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;  
+        background-color: rgb(68, 66, 66);
+        color: white;
+        padding: 25px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+}
+
+/*Ejemplo: Samsung Galaxy S20 Ultra*/
+@media only screen and (max-width: 479px){
+ 
+}
+
+
